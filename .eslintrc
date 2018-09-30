@@ -1,0 +1,6 @@
+{
+  "extends": ["esnext", "esnext/style-guide"],
+  "rules": {
+    "indent": ["error", 2]
+  }
+}
