@@ -1,7 +1,8 @@
 # JavaScript Design Patterns
 
 ## What Are Design Patterns?
-Design patterns are reusable solutions to commonly occurring problems in software design. 
+
+Design patterns are reusable solutions to commonly occurring problems in software design.
 
 During any language’s lifespan, many such reusable solutions are made and tested by a large number of developers from that language’s community. It is because of this combined experience of many developers that such solutions are so useful because they help us write code in an optimized way while at the same time solving the problem at hand.
 
@@ -25,64 +26,69 @@ Design patterns can be categorized in multiple ways, but the most popular one is
 - **Architectural** design patterns
 
 ### Creational Design Patterns
-These patterns are for handling object creational mechanisms. A Creational Pattern basically solves a problem by controlling the creation process of an object. Some of the popular design patterns in this category are:
+
+**Creational design patterns** are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or in added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
+
+Creational design patterns are composed of two dominant ideas. One is encapsulating knowledge about which concrete classes the system uses. Another is hiding how instances of these concrete classes are created and combined.
+
+Five well-known design patterns that are parts of creational patterns are the:
 
 - Factory method
-    > This makes an instance of several derived classes based on interfaced data or events.
+  > This makes an instance of several derived classes based on interfaced data or events.
 - Abstract factory
-    > Creates an instance of several families of classes without dealing concrete classes.
+  > Creates an instance of several families of classes without dealing concrete classes.
 - Builder
-    > Separates object construction from its representation, always creates the same type of object.
+  > Separates object construction from its representation, always creates the same type of object.
 - Prototype
-    > A fully initialized instance used for copying or cloning.
+  > A fully initialized instance used for copying or cloning.
 - Singleton
-    > A class with only a single instance with global access point.
+  > A class with only a single instance with global access point.
 
 ### Structural Design Patterns
 
 These patterns are concerned with class and object composition. They help structure or restructure one or more parts without affecting the entire system. In other words, they help obtain new functionalities without tampering with the existing ones. The most popular patterns in this category are:
 
 - Adapter
-    > Match interfaces of different classes therefore classes can work together despite incompatible interfaces.
+  > Match interfaces of different classes therefore classes can work together despite incompatible interfaces.
 - Bridge
-    > Separates an object's interface from its implementation so the two can vary independently.
+  > Separates an object's interface from its implementation so the two can vary independently.
 - Composite
-    > A structure of simple and composite objects which makes the total object more than just sum of its parts.
+  > A structure of simple and composite objects which makes the total object more than just sum of its parts.
 - Decorator
-    > Dynamically add alternate processing to objects.
+  > Dynamically add alternate processing to objects.
 - Facade
-    > A single class that hides the complexity of an entire subsystem. 
+  > A single class that hides the complexity of an entire subsystem.
 - Flyweight
-    > A fine-grained instance used for efficient sharing of information that is contained elsewhere.
+  > A fine-grained instance used for efficient sharing of information that is contained elsewhere.
 - Proxy
-    > A place holder object representing the true object.
+  > A place holder object representing the true object.
 
 ### Behavioral Design Patterns
 
 These patterns are concerned with improving communication between dissimilar objects. Popular examples of these patterns are:
 
 - Interpreter
-    > A way to include language elements in an application to match the grammar of the intended language.
+  > A way to include language elements in an application to match the grammar of the intended language.
 - Template Method
-    > Creates the shell of an algorithm in a method, then defer the exact steps to a subclass.
+  > Creates the shell of an algorithm in a method, then defer the exact steps to a subclass.
 - Chain of responsibility
-    > A way of passing a request between a chain of objects to find the object that can handle the request. 
+  > A way of passing a request between a chain of objects to find the object that can handle the request.
 - Command
-    > Encapsulate a command request as an object to enable, logging and/or queuing of requests, and provides error-handling for unhandled requests.
+  > Encapsulate a command request as an object to enable, logging and/or queuing of requests, and provides error-handling for unhandled requests.
 - Iterator
-    > Sequentially access the element of a collection without knowing the inner workings of the collection.
+  > Sequentially access the element of a collection without knowing the inner workings of the collection.
 - Mediator
-    > Defines simplified communication between classes to prevent a group of classes from referring explicitly to each other.
+  > Defines simplified communication between classes to prevent a group of classes from referring explicitly to each other.
 - Memento
-    > Capture an object's internal state to be able to restore it later.
+  > Capture an object's internal state to be able to restore it later.
 - Observer
-    > A way of notifying change to a number of classes to ensure consistency between classes.
+  > A way of notifying change to a number of classes to ensure consistency between classes.
 - State
-    > Alter an object's behavior when its state changes.
+  > Alter an object's behavior when its state changes.
 - Strategy
-    > Encapsulates an algorithm inside a class separating the selection from the implementation.
+  > Encapsulates an algorithm inside a class separating the selection from the implementation.
 - Visitor
-    > Adds a new operation to a class without changing the class.
+  > Adds a new operation to a class without changing the class.
 
 ### Concurrency Design Patterns
 
