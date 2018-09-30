@@ -1,4 +1,3 @@
-/* tslint:disable: max-classes-per-file*/
 // Empty vocabulary of actual object
 interface IPerson {
   getName(): string;

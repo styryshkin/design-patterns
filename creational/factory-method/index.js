@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 class Person {
   name = 'Person';
   getName () {

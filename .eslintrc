@@ -1,6 +1,7 @@
 {
   "extends": ["esnext", "esnext/style-guide"],
   "rules": {
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "class-methods-use-this": "off"
   }
 }
