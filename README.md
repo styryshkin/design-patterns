@@ -33,12 +33,14 @@ Creational design patterns are composed of two dominant ideas. One is encapsulat
 
 Five well-known design patterns that are parts of creational patterns are the:
 
-- Factory method
+- Factory Method
   > This makes an instance of several derived classes based on interfaced data or events.
-- Abstract factory
+- Abstract Factory
   > Creates an instance of several families of classes without dealing concrete classes.
 - Builder
   > Separates object construction from its representation, always creates the same type of object.
+- Dependency Injection
+  > A class accepts the objects it requires from an injector instead of creating the objects directly.
 - Prototype
   > A fully initialized instance used for copying or cloning.
 - Singleton
