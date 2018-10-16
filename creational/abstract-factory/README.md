@@ -2,6 +2,8 @@
 
 The **abstract factory pattern** provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client doesn't know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products. This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.
 
+_Frequency of use (in JavaScript): ![medium](../../assets/frequency/medium.png) medium_
+
 ## Overview
 
 **The Abstract Factory design pattern solves problems like:**
@@ -18,3 +20,7 @@ Creating objects directly within the class that requires the objects is inflexib
 - A class delegates object creation to a factory object instead of creating objects directly.
 
 This makes a class independent of how its objects are created (which concrete classes are instantiated). A class can be configured with a factory object, which it uses to create objects, and even more, the factory object can be exchanged at run-time.
+
+## Diagram
+
+![abstract factory](../../assets/diagrams/abstract-factory.png)
