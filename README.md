@@ -22,8 +22,6 @@ Design patterns can be categorized in multiple ways, but the most popular one is
 - **Creational** design patterns
 - **Structural** design patterns
 - **Behavioral** design patterns
-- **Concurrency** design patterns
-- **Architectural** design patterns
 
 ### Creational Design Patterns
 
@@ -69,41 +67,25 @@ These patterns are concerned with class and object composition. They help struct
 
 These patterns are concerned with improving communication between dissimilar objects. Popular examples of these patterns are:
 
-- Interpreter
-  > A way to include language elements in an application to match the grammar of the intended language.
-- Template Method
-  > Creates the shell of an algorithm in a method, then defer the exact steps to a subclass.
 - Chain of responsibility
-  > A way of passing a request between a chain of objects to find the object that can handle the request.
-- Command
-  > Encapsulate a command request as an object to enable, logging and/or queuing of requests, and provides error-handling for unhandled requests.
+  > Delegates commands to a chain of processing objects.
+  > -Command
+  > Creates objects which encapsulate actions and parameters.
+- Interpreter
+  > Implements a specialized language.
 - Iterator
-  > Sequentially access the element of a collection without knowing the inner workings of the collection.
+  > Accesses the elements of an object sequentially without exposing its underlying representation.
 - Mediator
-  > Defines simplified communication between classes to prevent a group of classes from referring explicitly to each other.
+  > Allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
 - Memento
-  > Capture an object's internal state to be able to restore it later.
+  > Provides the ability to restore an object to its previous state (undo).
 - Observer
-  > A way of notifying change to a number of classes to ensure consistency between classes.
+  > Publish/subscribe pattern which allows a number of observer objects to see an event.
 - State
-  > Alter an object's behavior when its state changes.
+  > Allows an object to alter its behavior when its internal state changes.
 - Strategy
-  > Encapsulates an algorithm inside a class separating the selection from the implementation.
+  > Allows one of a family of algorithms to be selected on-the-fly at runtime.
+- Template
+  > Method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
 - Visitor
-  > Adds a new operation to a class without changing the class.
-
-### Concurrency Design Patterns
-
-These types of design patterns deal with multi-threaded programming paradigms. Some of the popular ones are:
-
-- Active object
-- Nuclear reaction
-- Scheduler
-
-### Architectural Design Patterns
-
-Design patterns which are used for architectural purposes. Some of the most famous ones are:
-
-- MVC (Model-View-Controller)
-- MVP (Model-View-Presenter)
-- MVVM (Model-View-ViewModel)
+  > Separates an algorithm from an object structure by moving the hierarchy of methods into one object.
