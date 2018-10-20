@@ -22,5 +22,6 @@ Make an object (originator) itself responsible for
 - saving its internal state to a (memento) object and
 - restoring to a previous state from a (memento) object.
 
-# Diagram
+## Diagram
+
 ![memento](../../assets/diagrams/memento.png)
