@@ -1,4 +1,4 @@
-# JavaScript Design Patterns
+# Design Patterns
 
 ## What Are Design Patterns?
 
